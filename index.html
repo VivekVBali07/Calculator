@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class=" panel-heading">Calculator</div>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label for="">First Value</label>
+                    <input type="text" class="form-contol" id="first">
+                </div>
+
+                <div class="col-md-6 form-group">
+                    <label for="">Second Value</label>
+                    <input type="text" class="form-contol" id="second">
+                </div> 
+            </div>
+            <button onclick="add()" class="btn btn-primary">Add</button>
+            <button onclick="sub()" class="btn btn-primary">Subtract</button>
+            <button onclick="mul()" class="btn btn-primary">Multiply</button>
+            <button onclick="div()" class="btn btn-primary">Divide</button>
+        </div>
+    
+        <p class="output"></p>
+        </div>
+        <script src="code.js"></script>
+    
+</body>
+</html>
